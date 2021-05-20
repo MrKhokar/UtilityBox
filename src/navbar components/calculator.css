@@ -1,0 +1,50 @@
+button {
+  width: 10vw;
+  height: 10vh;
+  font-size: 100%;
+}
+
+#numbersGrid {
+  width: 30vw;
+}
+
+#equals {
+  width: 20vw;
+  background-color: lightblue;
+}
+
+#view {
+  text-align: right;
+  border-style: solid;
+  background-color: lightgrey;
+  font-size: 100%;
+}
+
+#display {
+  height: 7.5vh;
+}
+
+#entry {
+  height: 7.5vh;
+}
+
+#content {
+  width: 30vw;
+  margin: 0 auto;
+}
+
+#clear {
+  background-color: lightcoral;
+}
+
+.numbers {
+  background-color: lightyellow;
+}
+
+.operations {
+  background-color: lightgreen;
+}
+
+h3 {
+  text-align: center;
+}

@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+#box {
+  font-family: "Open Sans", sans-serif;
+  background: #d0f7d3;
+  border: 2px solid darken(#a5d1a7, 30%);
+  padding: 1px 5px 1px 5px;
+  margin-bottom: 10px;
+}
+textarea {
+  min-height: 200px;
+  margin: 10px 25% 5px 25%;
+  resize: none;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+  font-size: 12px;
+  min-width: 50%;
+}
+
+// Markdown Style
+#preview blockquote {
+  border-left: 3px solid;
+  padding-left: 5px;
+  margin-left: 25px;
+}
+code {
+  background: #ebffec;
+  padding-left: 1px 4px 2px 4px;
+  font-size: 12px;
+  font-weight: bold;
+}
+pre {
+  background: #ebffec;
+  padding: 5px 0 5px 5px;
+}
+h1 {
+  border-bottom: 2px solid;
+}
+h2 {
+  border-bottom: 1px solid;
+}
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  border: 2px solid;
+  padding-left: 5px;
+  padding-right: 5px;
+}
